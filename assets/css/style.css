@@ -12,6 +12,7 @@ body {
 header {
     width: 180px;
     position: fixed;
+    display: inline-block;
 }
 
 #logo img {
@@ -38,6 +39,7 @@ nav a:hover {
     width: 70%;
     margin-left: 300px;
     max-width: 1040px;
+    display: inline-block;
 }
 
 #about-me-left {
@@ -68,6 +70,27 @@ nav a:hover {
     color: #1f1f1f;
     text-decoration: none;
     padding: .2em;
+}
+
+#footer-line {
+    border-top: 1px solid #1f1f1f; 
+}
+
+footer ul { 
+    text-align: center;
+}
+
+footer li {
+    list-style-type: none;
+    line-height: 2em;
+    display: inline;
+}
+
+footer i {
+    font-size: 300%;
+    color: #1f1f1f;
+    margin-top: 20px;
+    margin-right: 60px;
 }
 
 @media screen and (max-width: 1000px) {
