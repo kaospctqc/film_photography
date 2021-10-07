@@ -97,6 +97,11 @@ footer i {
     margin-right: 60px;
 }
 
+article img {
+    width: 600px;
+    margin-left: 300px;
+}
+
 @media screen and (max-width: 1000px) {
     body {
         margin: 20px;
