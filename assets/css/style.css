@@ -185,3 +185,9 @@ article {
         max-width: unset;
     }
 }
+
+@media screen and (max-width: 390px) {
+    section#about-me-section, section {
+        margin-top: 20px;
+    }
+}
