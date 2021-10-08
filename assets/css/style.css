@@ -186,7 +186,7 @@ article {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
     section#about-me-section, section {
         margin-top: 20px;
     }
