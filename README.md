@@ -1,108 +1,84 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Film Photography
+This is a website about my film photography experience.
 
-Welcome USER_NAME,
+The goal si to share what 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The goal is to share images with others. These are representative of my journey in the photography world. I'm also sharing my thoughts about these images, hoping that the users get a glimpse into the relationship between the intention and the end result. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+[Live link](https://kaospctqc.github.io/film_photography/index.html)
 
-## Gitpod Reminders
+As a design feature, this website should be easy to browse on a number of devices and screen sizes.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Am I Responsive?](assets/images/readme-images/ami-responsivedesign-is.png)
 
-`python3 -m http.server`
+## Features
+The website currently showcases images and a short description/idea for each image.
+### Existing features
+- __Navigation Menu__
+    - Present on all the pages of the project, contains links to Home, B&W and Color page and is the same on all pages. In the layout for bigger screens, it keeps it's place relative to the viewport even when scrolling so that navigation is readily available.
+    - There is a border around the link that shows the current page that the user is on.
+    - This menu should enable website navigation and remove the need for the 'back' button of the web browser.
 
-A blue button should appear to click: _Make Public_,
+    ![Menu](assets/images/readme-images/menu-shot.png)
+- __Landing Page (Home page) image__
+    - Provides the information that this website contains my photography portfolio. Creates the correct expectations.
+- __Landing Page description__   
+    - The purpose is to convey context to the rest of the information contained in the website. Set the stage.
+- __Footer__
+    - Provides a couple of links to enable communication using email and a social media platform. This is available on all pages.
+- __Images pages - B&W and Color__
+    - The images pages share a sequence of images together with the idea from the image or about the image.
+    - There is a progression that can be followed and each image shares some aspect of photography that I believed to be worth sharing.
+    - Most of the images share the same square aspect ratio. This choice was deliberate and helped focus the content of the image and identify the interest.
+    - Some images are not in this square format because I feel that the subject wouldn't have been represented correctly.
+### Future features
+- __Equipment page__
+    - I'd like to create a page to describe the equipment used and it's impact on the workflow and the end result.
+    - The focus will be more on how the equipment changes the approach and flow while shooting a roll of film instead of the technical specs since these can be easily found in other places.
+- __Click to zoom__
+    - I feel that the users will benefit from being able to view a bigger, higher resolution image. 
+    - This can be implemented so that when a user clicks on a image, a overlay with a bigger image can be presented. 
+    - On a second click, this overlay dissapears and the users is back at the previous screen.
+- __Back to Top__
+    - Since the content is arranged veritcally and the height is very large, a floating button that is able to take the user back to the top should help navigate, especially in lower resolutions or smaller screen sizes.
+## Testing
 
-Another blue button should appear to click: _Open Browser_.
+Manual testing has been performed in order to identify issues regarding the websites: functionality and responsiveness.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Testing for responsiveness
+- I've changed my browser window width in order to simulate different resolutions and identify at which point the website elements begin to overlap or become more difficult to identify.
+- After implementing css rules in order to handle these different displa sizes/resolutions, I've requested a peer review and have received valuable feedback that pointed to smaller screens than ones I had anticipated that were having a issue with the menu becoming difficult to read.
+- Following the previous testing process I have found that I need to change css rules at the following widths: 1310px, 1000px, 720px and 400px
 
-A blue button should appear to click: _Make Public_,
+### Testing for functionality
+- I've used different devices to browse the website and follow all the links.
 
-Another blue button should appear to click: _Open Browser_.
+### Unfixed bugs
+- I've found that on some mobile devices, following a link from the menu, we navigate to the expected page but we do not land at the top of the page, instead we are a little lower in the page. This is less than ideal behaviour but this does not prevent the user from using the website and should be marked as a future improvement.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Testing tools:
+- For testing HTML I have used this tool and have not seen any errors: [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkaospctqc.github.io%2Ffilm_photography%2Findex.html)
+- For testing CSS I have used this tool and have not seen any errors: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkaospctqc.github.io%2Ffilm_photography%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- For responsiveness I have found this tool which gives a visual representation of different devices of various screen sizes: [Am I Responsive?](http://ami.responsivedesign.is/?url=https%3A%2F%2Fkaospctqc.github.io%2Ffilm_photography%2Findex.html)
+- Checking Best Practices: Browser add-on for Firefox: Lighthouse
+![Lighthouse](assets/images/readme-images/lighthouse.png)
 
-To log into the Heroku toolbelt CLI:
+## Deployment
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The website was deployed using [GitHub](https://github.com/).
+- Login to GitHub
+- Navigate to your respoitory containg the website you wish to publish.
+- Click on "Settings" from the horizontal menu
+- Select "Pages" from the vertical menu
+- Select the desired branch (usually "master" or "main")
+- After clicking "Save" you should see a refresh and the link for accessing the website is now available.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Credits
 
-------
+Both Content (text) and Media (Images) have been created by me. 
 
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+Design has been inspired by other photography websites. After searching for examples of other photo portfolios and selecting the ones that I liked, I have found that they are potentially using a [Squarespace](https://www.squarespace.com) template. I have used the visual design found in these websites and have looked into how they accomplish various features.
+This is a short list of websites that share a similar design:
+- [Jen Huang Bogan](https://jenhuangphoto.com/)
+- [Pedro N the world](https://www.pedrontheworld.com/overview)
+- [Mike Kelley](https://www.mpkelley.com/)
