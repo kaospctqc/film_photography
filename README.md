@@ -1,8 +1,6 @@
 # Film Photography
 This is a website about my film photography experience.
 
-The goal si to share what 
-
 The goal is to share images with others. These are representative of my journey in the photography world. I'm also sharing my thoughts about these images, hoping that the users get a glimpse into the relationship between the intention and the end result. 
 
 [Live link](https://kaospctqc.github.io/film_photography/index.html)
